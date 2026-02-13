@@ -259,7 +259,7 @@ const Hero = () => {
           className="relative z-10"
         >
           <img
-            src="/images/cute_fluffy_cat_sleeping_on_a_cloud.png"
+            src="/images/cute_fluffy_cat_sleeping_on_a_cloud.webp"
             alt="Sleeping zen cat on a cloud"
             className="h-auto w-full transform rounded-[3rem] shadow-2xl transition-transform duration-700 hover:rotate-0 md:rotate-3"
           />
@@ -366,21 +366,21 @@ const Features = () => {
           <FeatureCard
             title="Master of Chill"
             desc="Learn the ancient art of doing absolutely nothing and looking fabulous while doing it."
-            img="/images/meditating_cat_illustration.png"
+            img="/images/meditating_cat_illustration.webp"
             delay={0.1}
             testId="card-feature-chill"
           />
           <FeatureCard
             title="Playful Spirit"
             desc="Rediscover your inner kitten. Chase dreams (and butterflies) with reckless abandon."
-            img="/images/playful_cat_illustration.png"
+            img="/images/playful_cat_illustration.webp"
             delay={0.2}
             testId="card-feature-playful"
           />
           <FeatureCard
             title="Soul Nourishment"
             desc="Feed your heart with unconditional love, head bumps, and the occasional slow blink."
-            img="/images/cat_with_food_illustration.png"
+            img="/images/cat_with_food_illustration.webp"
             delay={0.3}
             testId="card-feature-nourishment"
           />
@@ -397,21 +397,21 @@ const Community = () => {
       role: 'Meditation Teacher',
       quote:
         'Purrfectly Zen completely transformed how I view mindfulness. My cat approves too.',
-      image: '/images/sarah_chen_meditation_teacher_portrait.png',
+      image: '/images/sarah_chen_meditation_teacher_portrait.webp',
     },
     {
       name: 'Marcus Johnson',
       role: 'Wellness Coach',
       quote:
         'The cat philosophy here resonates deeply. Simplicity, presence, and the power of a good nap.',
-      image: '/images/marcus_johnson_wellness_coach_portrait.png',
+      image: '/images/marcus_johnson_wellness_coach_portrait.webp',
     },
     {
       name: 'Elena Rodriguez',
       role: 'Creative Director',
       quote:
         "I've never felt more zen. The community here truly understands the meow of life.",
-      image: '/images/elena_rodriguez_creative_director_portrait.png',
+      image: '/images/elena_rodriguez_creative_director_portrait.webp',
     },
   ];
 
