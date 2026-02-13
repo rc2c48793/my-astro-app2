@@ -1,4 +1,5 @@
 import { motion, AnimatePresence } from 'framer-motion';
+import { Image } from 'astro:assets';
 import {
   Heart,
   Sparkles,
@@ -258,7 +259,7 @@ const Hero = () => {
           transition={{ duration: 0.8, ease: 'easeOut' }}
           className="relative z-10"
         >
-          <img
+          <Image
             src="/images/cute_fluffy_cat_sleeping_on_a_cloud.webp"
             alt="Sleeping zen cat on a cloud"
             className="h-auto w-full transform rounded-[3rem] shadow-2xl transition-transform duration-700 hover:rotate-0 md:rotate-3"
