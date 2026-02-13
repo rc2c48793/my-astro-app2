@@ -65,11 +65,10 @@ const Navigation = () => {
             key={link.id}
             href={link.href}
             data-testid={`link-${link.id}`}
-            className={`relative w-fit transition-colors ${
-              activeSection === link.id
+            className={`relative w-fit transition-colors ${activeSection === link.id
                 ? 'text-primary font-bold'
                 : 'text-muted-foreground hover:text-primary'
-            }`}
+              }`}
           >
             <motion.div whileHover={{ scale: 1.05 }}>
               {link.label}
@@ -128,11 +127,10 @@ const Navigation = () => {
                   ease: 'easeOut',
                 }}
                 whileHover={{ x: 4 }}
-                className={`w-fit text-center text-lg font-medium transition-colors duration-300 ${
-                  activeSection === link.id
+                className={`w-fit text-center text-lg font-medium transition-colors duration-300 ${activeSection === link.id
                     ? 'text-primary font-bold'
                     : 'text-foreground hover:text-primary'
-                }`}
+                  }`}
               >
                 {link.label}
               </motion.a>
@@ -263,6 +261,7 @@ const Hero = () => {
             src="/images/cute_fluffy_cat_sleeping_on_a_cloud.webp"
             alt="Sleeping zen cat on a cloud"
             className="h-auto w-full transform rounded-[3rem] shadow-2xl transition-transform duration-700 hover:rotate-0 md:rotate-3"
+            priority={true}
           />
 
           {/* Floating Cards */}
