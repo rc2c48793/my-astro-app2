@@ -667,7 +667,7 @@ export default function Home() {
             className="mb-12 space-y-4 text-center"
           >
             <h2 className="font-heading text-foreground text-4xl font-bold md:text-5xl">
-              Ready to find your zen?
+              Ready to find your zen rahul?
             </h2>
             <p className="text-muted-foreground mx-auto max-w-2xl text-lg">
               Choose your path and start your zen journey today
